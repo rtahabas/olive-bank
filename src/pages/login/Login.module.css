@@ -10,7 +10,7 @@
 .loginContainer form span {
   display: block;
   margin-bottom: 5px;
-  color: rgb(3, 0, 202);
+  color: #ff6c00;
 }
 .loginContainer form input {
   width: 100%;
