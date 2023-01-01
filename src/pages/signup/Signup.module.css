@@ -1,18 +1,18 @@
-.loginContainer {
-  max-width: 450px;
+.signupContainer {
+  max-width: 500px;
   margin: 150px auto;
 }
 
-.loginContainer form {
+.signupContainer form {
   margin-top: 20px;
 }
 
-.loginContainer form span {
+.signupContainer form span {
   display: block;
   margin-bottom: 5px;
   color: rgb(3, 0, 202);
 }
-.loginContainer form input {
+.signupContainer form input {
   width: 100%;
   padding: 8px 6px;
   margin-bottom: 15px;
