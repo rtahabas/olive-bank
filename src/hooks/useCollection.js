@@ -13,7 +13,6 @@ export const useCollection = (collection) => {
         snapshot.docs.forEach((doc) => {
           result.push({ ...doc.data(), id: doc.id });
         });
-
         setDocument(result);
         setError(null);
       },
