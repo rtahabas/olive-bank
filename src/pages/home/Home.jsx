@@ -7,8 +7,9 @@ import React from "react";
 
 const Home = () => {
   const { user } = useAuthContext();
-  const { document, error } = useCollection("transactions");
-  console.log(document)
+  const { document, error } = useCollection(
+    'transactions', ["uid", "==", user.uid], ['createdAt', 'desc']
+  );
   return (
     <div className={styles.container}>
       <div className={styles.content}>
